@@ -7,7 +7,48 @@
       "fname": "Josh",
       "lname": "Price",
       "rank": 0,
-      "isActive": 0
+      "isActive": 0,
+      "profile_picture": "https://cdn.discordapp.com/attachments/687295124740243490/1036256309231755274/DP_RP_PROFIL_police_discord.png"
+    }
+  ],
+
+  "cases":[
+    {
+      "id": 0,
+      "writer": 0,
+      "crime": "Bank Robbery",
+      "isSucsessful": 1,
+      "criminals": [0],
+      "punishment": {"jail": 100, "comm":0, "fine":0},
+      "notes": "2A6 going dark."
+    },
+    {
+      "id": 1,
+      "writer": "Ahmad Rock",
+      "crime": "Store Çalgını",
+      "isSucsessful": 1,
+      "criminals": [0],
+      "punishment": {"jail": 0, "comm":12, "fine":0},
+      "notes": "2A1 going dark."
+    }
+  ],
+
+  "warrants":[
+    {
+      "id":0,
+      "reason": "test",
+      "felony": 1,
+      "criminal": 0
+    }
+  ],
+  
+  "criminals":[
+    {
+      "id": 0,
+      "fname": "John",
+      "lname": "Price",
+      "phone": "+447636123245",
+      "finger_print": "cr231-3212-fdsa3"
     }
   ]
 }
