@@ -19,7 +19,7 @@
       "crime": "Bank Robbery",
       "isSucsessful": 1,
       "criminals": [0],
-      "punishment": {"jail": 100, "comm":0, "fine":0},
+      "punishment": {"jail": 100, "comm":0, "fine":200000},
       "notes": "2A6 going dark."
     },
     {
@@ -38,6 +38,12 @@
       "id":0,
       "reason": "test",
       "felony": 1,
+      "criminal": 0
+    },    
+    {
+      "id":0,
+      "reason": "test",
+      "felony": 0,
       "criminal": 0
     }
   ],
